@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  color: white;
+  height: 50vh;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.images {
+  background: url(images/header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
