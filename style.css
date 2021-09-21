@@ -54,6 +54,7 @@ li {
 
 li:hover {
   cursor: pointer;
+  color: blue;
 }
 
 .grid-container {
