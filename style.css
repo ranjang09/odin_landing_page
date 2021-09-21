@@ -112,7 +112,7 @@ h2 {
 }
 
 .content p:nth-child(2) {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: right;
   padding-bottom: 2rem;
@@ -131,4 +131,29 @@ h2 {
 .content button:hover {
   cursor: pointer;
   background-color: rgb(72, 72, 250);
+}
+
+footer {
+  background: linear-gradient(to right, #fffbd5, #b20a2c);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.tag {
+  font-weight: bold;
+}
+
+footer div:nth-child(3) {
+  font-size: 1.2rem;
+}
+
+.fab {
+  font-size: 1.5em;
+  padding: 1rem;
+  opacity: 0.7;
+}
+
+.fab:hover {
+  cursor: pointer;
 }
