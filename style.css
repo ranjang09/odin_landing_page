@@ -65,3 +65,24 @@ h1 {
   padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 0.7rem;
 }
+
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  padding: 0 15vw 10vh 15vw;
+  justify-content: space-between;
+}
+.flex-container div {
+  border: 2px solid #3882f6;
+  flex-basis: 24%;
+  border-radius: 0.7rem;
+}
