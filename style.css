@@ -66,6 +66,11 @@ h1 {
   border-radius: 0.7rem;
 }
 
+.second-item button:hover {
+  cursor: pointer;
+  background-color: rgb(72, 72, 250);
+}
+
 .grid {
   display: grid;
   gap: 10px;
@@ -81,8 +86,49 @@ h2 {
   padding: 0 15vw 10vh 15vw;
   justify-content: space-between;
 }
+
 .flex-container div {
   border: 2px solid #3882f6;
   flex-basis: 24%;
   border-radius: 0.7rem;
+}
+
+.content {
+  background-color: #e5e7eb;
+  padding: 10vh 15vw 10vh 15vw;
+  font-size: 2.2rem;
+  color: #1f2937;
+}
+
+.content .italics {
+  font-style: italic;
+  padding-bottom: 1.5rem;
+}
+
+.content .normal {
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.content p:nth-child(2) {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  padding-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.content button {
+  font-size: 2rem;
+  background-color: #3882f6;
+  border-radius: 0.7rem;
+  padding: 0.5rem 2rem;
+  margin: auto;
+  display: block;
+}
+
+.content button:hover {
+  cursor: pointer;
+  background-color: rgb(72, 72, 250);
 }
