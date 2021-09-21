@@ -9,17 +9,49 @@ header {
   padding: 0 10vw 5vw 10vw;
 }
 
+.images {
+  background: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+
 nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+nav div:nth-child(1) {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+nav div:nth-child(2) {
+  grid-row: 1/2;
+  grid-column: 2/3;
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  justify-content: flex-end;
 }
 
-.images {
-  background: linear-gradient(to right, #fffbd5, #b20a2c);
+.fas {
+  font-size: 3rem;
+  color: #b20a2c;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+
+li {
+  font-size: 1.2rem;
+  color: black;
+  margin: 1rem;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 .grid-container {
