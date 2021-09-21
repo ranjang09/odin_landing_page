@@ -6,8 +6,7 @@
 }
 
 header {
-  color: white;
-  height: 50vh;
+  padding: 0 10vw 5vw 10vw;
 }
 
 nav {
@@ -20,7 +19,49 @@ ul {
 }
 
 .images {
-  background: url(images/header.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: auto;
+  grid-template-columns: 50% 50%;
+}
+
+.first-item {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: 1px solid black;
+}
+
+.second-item {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.third-item {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.first-item p {
+  font-size: 1.2rem;
+}
+
+.second-item button {
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 0.7rem;
 }
